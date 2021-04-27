@@ -19,6 +19,23 @@ A framework in C# to evaluate road graphs inferred by trajectory-based road map 
 
 ---
 
+## Formats
+
+We follow a common format in the map construction field, similar to the one used in data-sets on [Mapconstruction](http://mapconstruction.org/). The following format is expected for maps.
+
+A *Vertices* file, with on each line:
+> vertexId, projectedX, projectedY
+
+An *Edges* file, with on each line:
+> edgeId, vertexId1, vertexId2, directedness
+
+Trajectory sets are expected in a folder containing a *trip_x* file for each trajectory, with on each line:
+> projectedX projectedY time
+
+We provide [Projectors](https://github.com/AriSaadon/RoadMapConstructionEvaluation/tree/main/Projectors) to help with conversion of coordinates. Additionally, with help of external tools, extracted Open Street Map road graphs can be used. The [OSMParser](https://github.com/AriSaadon/RoadMapConstructionEvaluation/tree/main/OSMParser) helps with the final small step to get such a graph to our format.
+
+---
+
 ## Usage
 
 The example below shows a sketch of how a single local neighbourhood can be evaluated.
