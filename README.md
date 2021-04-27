@@ -6,7 +6,7 @@ A framework in C# to evaluate road graphs inferred by trajectory-based road map 
 
 ## Features
 
-![features1](map.png)
+![img1](IMG1.png)
 
 - Import directed, undirected and hybrid maps.
 - Transform directedness and size of imported maps.
@@ -43,4 +43,4 @@ Camera.main.transform.position = gt.GetCenter();	//Position cam to GT map.
 The evaluation can be visualized for a detailed overview of the local neighbourhood matching.
 <br>
 
-![features2](Eval.png)
+![img2](IMG2.png)
