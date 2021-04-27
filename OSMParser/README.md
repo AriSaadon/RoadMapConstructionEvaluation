@@ -1,0 +1,3 @@
+## OSMParser
+
+Any section of map on [Open Street Map](https://www.openstreetmap.org/export#map=3/29.08/20.74) can be easily exported as a custom OSM XML data file. Removing metadata to extract only the car road graph, can be easily achieved using the excellent [OsmToRoadGraph](https://github.com/AndGem/OsmToRoadGraph) application. The resulting *.pycgr* file can then be parsed to our map format using the script we provide here. 
