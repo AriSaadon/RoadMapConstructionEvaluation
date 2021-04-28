@@ -1,6 +1,6 @@
 # RoadMapConstructionVisualEvaluator
 
-A framework in C# to evaluate road graphs inferred by trajectory-based road map construction algorithms. Part of master thesis for the University Utrecht Department of Information and Computing Science. This version needs and uses the Unity game engine for visualisations. We heavily recommend working with the visual version. For a non-visual you can look [here](https://github.com/AriSaadon/RoadMapConstructionEvaluation).
+A framework in C# to evaluate road graphs inferred by trajectory-based road map construction algorithms. Part of master thesis for the University Utrecht Department of Information and Computing Science. This version needs and uses the Unity game engine for visualisations. We heavily recommend installing Unity and working with the visual version. For a non-visual you can look [here](https://github.com/AriSaadon/RoadMapConstructionEvaluation).
 
 ---
 
