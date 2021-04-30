@@ -1,6 +1,6 @@
 # RoadMapConstructionVisualEvaluator
 
-A framework in C# to evaluate road graphs inferred by trajectory-based road map construction algorithms. Part of master thesis for the University Utrecht Department of Information and Computing Science. This version needs and uses the Unity game engine for visualisations. We heavily recommend installing Unity and working with the visual version. For a non-visual you can look [here](https://github.com/AriSaadon/RoadMapConstructionEvaluation).
+A framework in C# to evaluate road graphs inferred by trajectory-based road map construction algorithms. Part of master thesis for the University Utrecht Department of Information and Computing Science. This version needs and uses the Unity game engine for visualisations. We heavily recommend installing Unity and working with the visual version. A non-visual can be found [here](https://github.com/AriSaadon/RoadMapConstructionEvaluation-console).
 
 ---
 
@@ -54,7 +54,8 @@ importTraj);	//Draw 100 trajectories from the provided folder.
 
 Camera.main.transform.position = gt.GetCenter();	//Position cam to GT map.
 
-(float, float) similarityScore = EvalRandomNeighbourhood(gt, cm, 200, 100, 20);
+(float, float) similarityScore = NeighbourhoodEval(gt, cm);
+Debug.Log(similarityScore);
 ```
  
 The evaluation can be visualized for a detailed overview of the local neighbourhood matching.
